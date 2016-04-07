@@ -1,9 +1,6 @@
-# Authenticator Starter
+# Authenticator
 
-**To run:**
-```
-npm start
-```
+A local authentication app using [`passport`](http://passportjs.org).
 
 Here's what we'll be building:
 ![Excercise Login Page](http://i.imgur.com/00NLYJA.png)
