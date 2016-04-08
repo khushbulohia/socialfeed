@@ -1,9 +1,39 @@
 {
-  "name": "authenticator",
+  "name": "socialfeed",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node -- -- index.js"
+    "start": "nodemon --use_strict -- index.js"
   },
   "dependencies": {
-  }
+    "body-parser": "^1.15.0",
+    "co-express": "^1.2.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.11",
+    "morgan": "^1.7.0",
+    "nodeifyit": "^1.0.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "songbird": "^1.0.2"
+  },
+  "description": "A local authentication app using [`passport`](http://passportjs.org).",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khushbulohia/socialfeed.git"
+  },
+  "keywords": [
+    "social"
+  ],
+  "author": "klohia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khushbulohia/socialfeed/issues"
+  },
+  "homepage": "https://github.com/khushbulohia/socialfeed#readme"
 }
