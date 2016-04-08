@@ -1,8 +1,8 @@
 {
-  "name": "authenticator-demo",
+  "name": "authenticator",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js"
+    "start": "nodemon --exec babel-node -- -- index.js"
   },
   "dependencies": {
   }
